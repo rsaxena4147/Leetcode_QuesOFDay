@@ -7,6 +7,8 @@ public:
     int num ;
     unordered_map<int , set<pair<int,int>>> available; // movie -> {price, shop}
 
+    
+
     struct cmp {
         bool operator()(const vector<int>& a, const vector<int>& b) const {
             if (a[2] != b[2]) return a[2] < b[2]; // price
