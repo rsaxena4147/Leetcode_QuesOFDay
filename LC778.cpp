@@ -22,7 +22,7 @@ public:
             if (x == n - 1 && y == n - 1)
                 return time;
 
-            if (vis[x][y]) continue;
+            if (vis[x][y])      continue;
             vis[x][y] = true;
 
             for (int k = 0; k < 4; k++) {
