@@ -12,7 +12,7 @@ public:
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
         pq.push(              {grid[0][0], 0, 0});
 
-        int dx[4] = {-1, 1, 0, 0};
+        int dx[4] = {-1,            1, 0, 0};
         int dy[4] = {0, 0, -1, 1};
 
         while (!pq.empty()) {
