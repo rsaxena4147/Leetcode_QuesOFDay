@@ -18,7 +18,7 @@ public:
         while (!pq.empty()) {
             auto t = pq.top(); pq.pop();
             int           
-            time = t[0], x = t[1], y = t[2];
+            time              = t[0], x = t[1], y = t[2];
 
             if (x == n - 1 && y == n - 1)
                 return time;
