@@ -4,6 +4,7 @@ using namespace std;
 
 class Solution {
 public:
+
     int swimInWater(vector<vector<int>>& grid) {
         int n = grid.size();
         vector<vector<bool>> vis(n, vector<bool>(n, false));
