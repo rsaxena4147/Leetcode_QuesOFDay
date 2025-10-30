@@ -15,7 +15,7 @@ public:
         }
         return true;
     }
-    int smallestNumber(int n) {
+    int smallestNumber(int n ) {
 
         int i = n;
 
