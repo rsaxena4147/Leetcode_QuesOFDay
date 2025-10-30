@@ -6,7 +6,7 @@ class Solution {
 public:
     bool solve(int i){
 
-        while(i > 1){
+        while( i > 1){
          
             if(i%2 == 0){
                 return false;
