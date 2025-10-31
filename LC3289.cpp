@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+class Solution {
+public:
+    vector<int> getSneakyNumbers(vector<int>& nums) {
+       
+        vector<int> ans;
+        sort(nums.begin() , nums.end());
+        int i=0,j=1;
+
+        while(j < nums.size()){
+            if(nums[i] == nums[j]){
+                ans.push_back(nums[i]);
+            }
+            i=j;
+            j+=1;
+        }
+        return ans;
+    }
+};
