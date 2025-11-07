@@ -61,6 +61,9 @@ public:
             if(j - i + 1 == k) {
                 result.push_back(sum);
 
+
+                
+
                 removeFromSet({mp[nums[i]], nums[i]}, x);
                 mp[nums[i]]--;
                 if(mp[nums[i]] == 0) {
