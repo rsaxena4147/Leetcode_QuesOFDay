@@ -58,6 +58,9 @@ public:
             mp[nums[j]]++; //new freq
             insertInSet({mp[nums[j]], nums[j]}, x);
 
+
+
+            
             if(j - i + 1 == k) {
                 result.push_back(sum);
 
