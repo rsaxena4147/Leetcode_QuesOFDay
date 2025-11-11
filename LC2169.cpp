@@ -12,6 +12,7 @@ public:
 
         while(num1 != 0 or num2 != 0){
             if(num1 > num2){
+                
                 num1 -= num2;
             }else{
                 num2 -= num1;
